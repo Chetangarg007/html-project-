@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Book</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cart-page">
+
+    <nav class="navbar">
+        <a target="_blank" href="index.html"><i class="ri-home-3-line"></i>Home</a>
+        <a target="_blank" href="catalogue.html"><i class="ri-book-2-line"></i>Explore Books</a>
+        <a target="_blank" href="addbook.html">
+            <i class="ri-shopping-cart-2-line"></i>Add Book
+        </a>
+        <a target="_blank" href="register.html"><i class="ri-user-add-fill"></i>Register</a>
+        <a href="login.html" target="_blank"><i class="ri-user-fill"></i>Login</a>
+    </nav>
+
+    <h1 class="heading-cart">Add New Book</h1>
+
+    <div class="cart-summary">
+
+        <form>
+
+            <div class="summary-row">
+                <label>Book Name:</label>
+                <input type="text" placeholder="Enter book name" required>
+            </div>
+
+            <br>
+
+            <div class="summary-row">
+                <label>Author Name:</label>
+                <input type="text" placeholder="Enter author name" required>
+            </div>
+
+            <br>
+
+            <div class="summary-row">
+                <label>Book Price:</label>
+                <input type="number" placeholder="Enter price in Rs." required>
+            </div>
+
+            <br>
+
+            <div class="summary-row">
+                <label>Category:</label>
+                <select required>
+                    <option value="">Select Category</option>
+                    <option>Fiction</option>
+                    <option>Biography</option>
+                    <option>Self Help</option>
+                    <option>Technology</option>
+                    <option>Education</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div class="summary-row">
+                <label>Book Image:</label>
+                <input type="text" placeholder="Enter image URL">
+            </div>
+
+            <br>
+
+       <div class="summary-row">
+    <label>Listing Type:</label>
+    <select required>
+        <option value="">Select Option</option>
+        <option>Sell</option>
+        <option>Lend</option>
+        <option>Exchange</option>
+        <option>Donate</option>
+    </select>
+    </div>
+    <br>
+            <div class="summary-row">
+                <label>Description:</label>
+                <textarea placeholder="Enter book description"></textarea>
+            </div>
+
+            <br>
+
+            <button type="submit" class="checkout">Add Book</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

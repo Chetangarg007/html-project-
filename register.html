@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="registeration-page">
+    <nav class="navbar">
+        <a href="index.html">
+            <i class="ri-home-3-line"></i> Home
+        </a>
+        <a href="catalogue.html">
+            <i class="ri-book-2-line"></i> Explore Books
+        </a>
+        <a href="addbook.html">
+            <i class="ri-add-circle-line"></i> Add a Book
+        </a>
+        <a href="register.html">
+            <i class="ri-user-add-fill"></i> Register
+        </a>
+
+        <a href="login.html">
+            <i class="ri-user-fill"></i> Login
+        </a>
+
+    </nav>
+        <div class="register-container">
+            <div class="register-box">
+                <h2>Create your account</h2>
+                <form>
+                <label >Name</label>
+                <input type="text" placeholder="Enter your full name" id="name">
+                 <label >DOB</label>
+                 <input type="date" placeholder="Enter your Date of Birth" id="dob">
+                 <label >Favourite Genre</label>
+                 <input type="text" placeholder="Enter your favourite genre" id="genre">
+                 <label >Mobile no.</label>
+                 <input type="tel" placeholder="Enter your mobile number" id="mobile">
+                  <label >Email</label>
+                <input type="email" placeholder="Enter your email" id="email">
+                 <label >Password</label>
+                <input type="password" placeholder="Create password" id="password">
+                <label >Confirm Password</label>
+                <input type="password" placeholder="Confirm password" id="confirmPassword">
+                <button id="registerBtn">Register</button>
+                </form>
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </div>
+        <script src="javascript.js"></script>
+</body>
+</html>
